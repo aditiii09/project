@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+/* html {
+  scroll-behavior: smooth;
+} */
+body {
+  /* padding: 0;
+  margin: 0;
+  min-height: 100vh; */
+  font-family: Poppins, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+.hotel-pic{
+  background-image: url('./img/burger.jpg');
+  height: 31vw;
+   background-size: cover;
+   background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  position: relative;
+  opacity: 0.5;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* li {
+  list-style: none;
+} */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.top-container{
+  background-color: black;
+}
+/* .top-container {
+  width: 100%;
+  height: 25rem;
+  z-index: -2;
+  position: relative;
+} */
+/* .main-container-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */
+
+/* .main-container-dark {
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  height: 25rem;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  opacity: 0.5;
+} */
+.navbar{
+  padding: 0 0 0.3rem;
+
+}
+.navbar-brand{
+  
+  font-size: 2.4vw;
+  font-weight: bold;
+  padding-left: 15px;
+  
+}
+/* .navbar-expand-lg .navbar-nav .book-button{
+background-color: #FFBC80;
+} */
+.navbar-expand-lg .navbar-nav .book-button .nav-link{
+  color: black;
+}
+
+
+.nav-item{
+  padding: 0 18px;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  font-size: 1.7vw;
+  font-weight: 100px;
+}
+
+.nav-item::after {
+  content: '';
+  display: block;
+  width: 0px;
+  height: 2px;
+  background: white;
+  transition: 0.4s
+}
+
+.nav-item:hover::after {
+  width: 100%;
+}
+.navbar-expand-lg .navbar-nav .book-button::after {
+  content: '';
+  display: block;
+  width: 0px;
+  height: 2px;
+  background: black;
+  transition: 0.4s
+}
+
+.navbar-expand-lg .navbar-nav .book-button:hover::after {
+  width: 100%
+}
+/* .nav {
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  color: white;
+  padding-right: 6rem;
+  padding-left: 6rem;
+}
+
+.links {
+  display: flex;
+}
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-left: 1rem;
+}
+.links li {
+  margin-right: 2rem;
+}
+
+.search-bar {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  top: 15rem;
+}
+
+.search-bar > input {
+  min-width: 30rem;
+  height: 3rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: white;
+  padding-left: 1rem;
+  font-size: 1.5rem;
+  color: black;
+} */
+
+.items-card-box {
+  width: 90%;
+  margin: 7% 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  gap: 3rem;
+}
+.items-card {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid rgb(211, 211, 211);
+}
+.items-card-img {
+  width: 15rem;
+  height: 15rem;
+  object-fit: cover;
+}
+.items-card-img > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+.items-card-text {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+.price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+#testimonials{
+  background-color: #6867AC;
+}
+.testimonial-heading{
+  font-size: 3rem;
+  text-align: center;
+}
+.testimonial-text1{
+  font-size: 2.6vw;
+  line-height: 1.5;
+  padding-right: 5%;
+  text-align: left;
+}
+.carousel-item{
+  padding:7% 11%;
+}
+
+.items-card{
+  border-color: #6867AC;
+  color:#6867AC;
+  background-color: black;
+  text-align: center;
+}
+/* .footer {
+  width: 100%;
+  height: 12rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  bottom: 0;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  padding-right: 6rem;
+  padding-left: 6rem;
+} */
+#footer{
+  background-color: black;
+}
+
+.footer-heading{
+  color:#6867AC;
+  padding:8%;
+}
+.para3{
+  color:white;
+}
+.social-icon{
+  margin:20px 10px;
+  color: #6867AC;
+
+}
+.social-icon:hover{
+  color:white;
+}
+
+li{
+  color: aliceblue;
+}
+
+a{
+  color:white;
+  
+}
+a:hover{
+  color:#6867AC
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 1;
+  border-radius: 50%;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  cursor: pointer;
+}

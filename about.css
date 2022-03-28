@@ -1,0 +1,92 @@
+*{
+    background-color: black;
+   
+}
+.hotel-pic2{
+    /* background-image: url('./img/about.png'); */
+    background-size: cover;
+    height: 43vw;
+    width: 62vw;
+    background-position: center; 
+   background-repeat: no-repeat; 
+   /* position:absolute; */
+   opacity: 0.5;
+}
+h1{
+    /* position:relative; */
+    margin: 30%;
+    color:#6867AC;
+    padding:7%;
+    font-size: 3vw;
+    /* text-align: center; */
+}
+p{
+    /* position: absolute; */
+    color:white;
+    margin:24%;
+    font-size: 2vw;
+    /* text-align: center; */
+    margin-right: 2px;
+}
+/* .rowclass{
+    padding:5%;
+} */
+/* .top-container{
+    background-color: black;
+   
+    height:100%;
+    width:100%;
+
+  } */
+  .navbar{
+    padding: 0 0 0.3rem;
+  
+  }
+  .navbar-brand{
+    
+    font-size: 2.4vw;
+    font-weight: bold;
+    padding-left: 15px;
+    
+  }
+  /* .navbar-expand-lg .navbar-nav .book-button{
+  background-color: #FFBC80;
+  } */
+  .navbar-expand-lg .navbar-nav .book-button .nav-link{
+    color: black;
+  }
+  
+  
+  .nav-item{
+    padding: 0 18px;
+  }
+  .navbar-dark .navbar-nav .nav-link {
+    color: white;
+    font-size: 1.7vw;
+    font-weight: 100px;
+  }
+  
+  .nav-item::after {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 2px;
+    background: white;
+    transition: 0.4s;
+  }
+  
+  .nav-item:hover::after {
+    width: 100%;
+  }
+  .navbar-expand-lg .navbar-nav .book-button::after {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 2px;
+    background: black;
+    transition: 0.4s
+  }
+  
+  .navbar-expand-lg .navbar-nav .book-button:hover::after {
+    width: 100%
+  }
